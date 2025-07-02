@@ -1,0 +1,43 @@
+.feed{
+    width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.Post{
+    border: 5px solid black;
+}
+.post-head{
+    font-family: Georgia;
+    display: flex;
+}
+.instagram-icon{
+    font-size: 30px;
+    margin: 5px;
+}
+.instagram-name{
+    margin: auto 0;
+    font-size: 20px;
+}
+.image{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.icons-foot{
+    display: flex;
+    font-size: 30px;
+    margin: 5px;
+}
+.post-foot{
+    margin: 5px;
+    font-size: 15px;
+}
+.text-post{
+    margin: 5px;
+    font-size: 20px !important;
+    font-family: 'Times New Roman';
+}
